@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookies on Digital Land</title>
-    <link>https://emilyhill94.github.io/cookies/</link>
+    <link>/cookies/</link>
     <description>Recent content in Cookies on Digital Land</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     
-	<atom:link href="https://emilyhill94.github.io/cookies/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/cookies/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,92 +2,92 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Needs on Digital Land</title>
-    <link>https://emilyhill94.github.io/needs/</link>
+    <link>/needs/</link>
     <description>Recent content in Needs on Digital Land</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     
-	<atom:link href="https://emilyhill94.github.io/needs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/needs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Access to data in bulk</title>
-      <link>https://emilyhill94.github.io/needs/access-to-data-in-bulk/</link>
+      <link>/needs/access-to-data-in-bulk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/access-to-data-in-bulk/</guid>
+      <guid>/needs/access-to-data-in-bulk/</guid>
       <description>When building a service, I want to be able to access data in bulk, so that I do not have to make multiple requests for data</description>
     </item>
     
     <item>
       <title>Access to raw data</title>
-      <link>https://emilyhill94.github.io/needs/maintained-data/</link>
+      <link>/needs/maintained-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/maintained-data/</guid>
+      <guid>/needs/maintained-data/</guid>
       <description>When building a service, I want to have access to raw data (as opposed to calculated statistical data), so that I am able to get the fullest value from the data</description>
     </item>
     
     <item>
       <title>Easy access to data</title>
-      <link>https://emilyhill94.github.io/needs/easy-access-to-data/</link>
+      <link>/needs/easy-access-to-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/easy-access-to-data/</guid>
+      <guid>/needs/easy-access-to-data/</guid>
       <description>When building a service, I want access to data without having to ask for it</description>
     </item>
     
     <item>
       <title>Ensure data meets the specification</title>
-      <link>https://emilyhill94.github.io/needs/ensure-data-meets-the-specification/</link>
+      <link>/needs/ensure-data-meets-the-specification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/ensure-data-meets-the-specification/</guid>
+      <guid>/needs/ensure-data-meets-the-specification/</guid>
       <description>Before publishing a data, I want to be able to validate that data I&amp;rsquo;ve collect meets the specification, so that I can fix any issues</description>
     </item>
     
     <item>
       <title>Maintained data</title>
-      <link>https://emilyhill94.github.io/needs/access-to-raw-data/</link>
+      <link>/needs/access-to-raw-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/access-to-raw-data/</guid>
+      <guid>/needs/access-to-raw-data/</guid>
       <description>When using a dataset, I want to have confidence that the dataset is being maintained, so that I can trust that the data is relevent and usable</description>
     </item>
     
     <item>
       <title>Provide feedback</title>
-      <link>https://emilyhill94.github.io/needs/provide-feedback/</link>
+      <link>/needs/provide-feedback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/provide-feedback/</guid>
+      <guid>/needs/provide-feedback/</guid>
       <description>When data is incorrect or missing, I want to be able to inform the data maintainer, so that they can fix the dataset.</description>
     </item>
     
     <item>
       <title>Unrestrictive usage</title>
-      <link>https://emilyhill94.github.io/needs/unrestrictive-usage/</link>
+      <link>/needs/unrestrictive-usage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/unrestrictive-usage/</guid>
+      <guid>/needs/unrestrictive-usage/</guid>
       <description>When building a service, I want to use data openly and without any prohibitive restrictions, so that I am able to get full value from the data</description>
     </item>
     
     <item>
       <title>Up-to-date data</title>
-      <link>https://emilyhill94.github.io/needs/up-to-date-data/</link>
+      <link>/needs/up-to-date-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/up-to-date-data/</guid>
+      <guid>/needs/up-to-date-data/</guid>
       <description>When I am building a service, I want to have confidence that I have access to the most recent data, so that the thing I am building is useful and relevant.</description>
     </item>
     
     <item>
       <title>What data is needed</title>
-      <link>https://emilyhill94.github.io/needs/what-data-is-needed/</link>
+      <link>/needs/what-data-is-needed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilyhill94.github.io/needs/what-data-is-needed/</guid>
+      <guid>/needs/what-data-is-needed/</guid>
       <description>When defining a data standard, I want to know what data is needed, so that the right data is made available</description>
     </item>
     
