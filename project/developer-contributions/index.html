@@ -183,7 +183,6 @@
 
 <ul>
 <li><a href="#help-us-develop-a-common-data-format">Help us develop a common data format</a></li>
-<li><a href="#publish-using-our-proposed-data-format">Publish using our proposed data format</a></li>
 <li><a href="#current-areas-of-investigation">Current areas of investigation</a></li>
 <li><a href="#upcoming-areas-of-investigation">Upcoming areas of investigation</a></li>
 <li><a href="#timeline">Timeline</a></li>
@@ -198,12 +197,19 @@
 
 
 <div class="common-format-section">
-  <p>This page documents the <a href="https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works">alpha phase</a> for developing a format for representing developer contributions as data.</p>
+  <p>In the <a href="https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works">alpha phase</a> of this project, we developed a new common  standard for publishing data on developer contributions.</p>
+
+<p>We are proposing a simple data format for developer contributions that:</p>
+
+<ul>
+<li>meets the user needs we’ve identified</li>
+<li>requires minimal effort from local planning authorities to create and make the data available</li>
+</ul>
 
 <p>You can help us improve the format by:</p>
 
 <ul>
-<li>participating in the discussion on our <a href="https://github.com/digital-land/digital-land/issues">GitHub issues</a></li>
+<li>joining the discussion on our <a href="https://github.com/digital-land/digital-land/issues">GitHub issues</a></li>
 <li>making comments using our <a href="https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A/edit">feedback form</a></li>
 <li>following the <a href="https://digital-land.github.io/guidance/developer-contributions/">proposed guidance</a> next time you publish your developer contributions</li>
 </ul>
@@ -216,49 +222,9 @@
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
-<h2 id="publish-using-our-proposed-data-format">Publish using our proposed data format</h2>
-
-<p>We are proposing a simple data format for developer contributions that:</p>
-
-<ul>
-<li>meets the user needs we’ve identified</li>
-<li>requires minimal effort from local planning authorities to create and make the data available</li>
-</ul>
-
-<p>By using this format next time you publish your contributions, you’ll be giving us data and insights that will help us improve it.</p>
-
-<p>We propose 4 lists to be kept and maintained centrally by MHCLG:</p>
-
-<ul>
-<li><a href="https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-type.csv">developer-agreement-type</a>
-– a code for each type of developer agreement recorded</li>
-<li><a href="https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-purpose.csv">developer-contribution-purpose</a>
-– purpose codes for categorising developer contributions</li>
-<li><a href="https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-register.csv">developer-contribution-register</a>
-– a link to where each local planning authority has published their developer contribution registers</li>
-<li><a href="https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-agreement-funding-stage.csv">developer-agreement-funding-stage</a> – the funding status of each contribution</li>
-</ul>
-
-<p>We also propose each local planning authority publishes 3 developer contributions data files on their own website:</p>
-
-<ul>
-<li><a href="https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement.csv">developer-agreements</a>
-– developer agreements, with a link to the original document</li>
-<li><a href="https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-contribution.csv">developer-agreement-contributions</a>
-– agreed developer contributions found in each document</li>
-<li><a href="https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-transaction.csv">developer-agreement-transactions</a>
-– payments received from a developer or spent on a project</li>
-</ul>
-
-<p>Storing your data in 3 separate files rather than one file makes it possible to use the data more robustly and in more ways.</p>
-
-<p>Read our <a href="/guidance/developer-contributions/">proposed guidance for publishing developer contributions</a> for more detail on the format.</p>
-
-<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
-
 <h2 id="current-areas-of-investigation">Current areas of investigation</h2>
 
-<p>The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with.</p>
+<p>The following areas of investigation explore how the data could be used and made easier to work with:</p>
 
 <div class="prototype-summary" data-issue-number='21'>
   <span class="prototype-progress-flag in-progress-flag--inverse">In progress</span>
@@ -269,15 +235,11 @@
 
 <p>Finding published viability assessments is extremely difficult. Would providing an index of viability assessments, along with important information, be of value to local planning authorities and interested members of the community?</p>
 
-<h4 id="what-we-tested">What we tested</h4>
+<h4 id="what-we-will-test">What we will test</h4>
 
 <ul>
 <li><a href="https://section-106-prototype.cloudapps.digital/viability/">an index of viability assessments</a></li>
 </ul>
-
-<h4 id="what-we-learned">What we learned</h4>
-
-<p>We haven’t yet tested the index with users.</p>
 
 </div>
 
@@ -291,15 +253,11 @@
 
 <p>Will presenting what contribution agreements have been made, where funds have been allocated, and whether money has been spent help answer questions from the community, local authorities and government?</p>
 
-<h4 id="what-we-tested">What we tested</h4>
+<h4 id="what-we-will-test">What we will test</h4>
 
 <ul>
 <li><a href="https://section-106-prototype.cloudapps.digital/developer-contributions/section106-wide">a visualisation of developer contribution data</a></li>
 </ul>
-
-<h4 id="what-we-learned">What we learned</h4>
-
-<p>We haven’t yet tested the dashboard with users.</p>
 
 </div>
 
@@ -335,15 +293,11 @@
 
 <p>Developer contributions data will need to be published in line with the data format. Would offering planning authorities a simple validator help them ensure their publication follows that format?</p>
 
-<h4 id="what-we-tested">What we tested</h4>
+<h4 id="what-we-will-test">What we will test</h4>
 
 <ul>
 <li><a href="https://section-106-prototype.cloudapps.digital/validate-start">a tool to check your developer contribution data</a></li>
 </ul>
-
-<h4 id="what-we-ve-learned">What we&rsquo;ve learned</h4>
-
-<p>We haven’t yet tested the validator with users.</p>
 
 </div>
 
@@ -357,7 +311,7 @@
 <div class="upcoming-areas-section">
   <p>We plan to explore the following by prototyping tools and by testing and consulting with people involved with developer contributions, and responding to your feedback.</p>
 
-<p>We will regularly add updates to the following <a href="https://github.com/digital-land/digital-land/issues?q=is%3Aissue+is%3Aopen+label%3Aproject%3Adeveloper-contributions">issues on github</a>:</p>
+<p>We will regularly add updates to the following <a href="https://github.com/digital-land/digital-land/issues?q=is%3Aissue+is%3Aopen+label%3Aproject%3Adeveloper-contributions">issues on GitHub</a>:</p>
 
 </div>
 
@@ -365,9 +319,13 @@
 
 <h2 id="timeline">Timeline</h2>
 
+<p><strong>28 March 2019</strong></p>
+
+<p>We user tested the developer contributions guidance with 4 Monitoring Officers from local authorities, observing how they understood and used the guidance and whether they were able to meet the data format. We’ll improve the guidance based on the user needs identified.</p>
+
 <p><strong>19 February 2019</strong></p>
 
-<p>We attended the London Planning Officers Society meeting to present the broader work that the Digital Land Services team are doing, and to provide an overview of the proposed developer contributions data format.</p>
+<p>We attended the <a href="http://www.planningofficers.org.uk/">Planning Officers Society</a> meeting in London to present the broader work that the Digital Land Services team are doing, and to provide an overview of the proposed developer contributions data format.</p>
 
 <p><strong>01 February 2019</strong></p>
 
@@ -375,7 +333,7 @@
 
 <p><strong>31 January 2019</strong></p>
 
-<p>Public consultation ended.</p>
+<p>The <a href="https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation">public consultation</a> ended.</p>
 
 <p><strong>29 January 2019</strong></p>
 
@@ -385,7 +343,7 @@
 
 <p>The <a href="https://www.local.gov.uk/pas">Planning Advisory Service</a> hosted a workshop in London to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register <a href="https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-london-tickets-54919493684">here</a>.</p>
 
-<p><strong>20 December 2010</strong></p>
+<p><strong>20 December 2018</strong></p>
 
 <p>The <a href="https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation">public consultation</a> started.</p>
 
@@ -403,7 +361,7 @@
 
 <p><strong>10 October 2018</strong></p>
 
-<p>We met with Exacom to learn how developer contributions are managed within their product, and to explore opportunities for re-purposing existing data.</p>
+<p>We met with <a href="http://exacom.co.uk/">Exacom</a> to learn how developer contributions are managed within their product, and to explore opportunities for re-purposing existing data.</p>
 
 <p><strong>September 2018</strong></p>
 
@@ -411,7 +369,7 @@
 
 <p><strong>June 2018</strong></p>
 
-<p>An initial draft of a data standard was produced by iStandUK, this provided us with a baseline to test and refine based on user needs.</p>
+<p>An initial draft of a data standard was produced by <a href="https://istanduk.org/">iStandUK</a>, this provided us with a baseline to test and refine based on user needs.</p>
 
 <p><strong>Spring 2018</strong></p>
 
